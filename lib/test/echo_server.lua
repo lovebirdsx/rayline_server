@@ -20,5 +20,5 @@ function EchoServer:start()
 	self.server:start()
 end
 
-local server = EchoServer(10000)
+local server = EchoServer(80)
 server:start()
