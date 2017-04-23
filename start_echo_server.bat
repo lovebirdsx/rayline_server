@@ -1,1 +1,0 @@
-start lua lib/test/echo_server.lua
