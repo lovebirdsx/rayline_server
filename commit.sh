@@ -1,4 +1,4 @@
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
+if [ "$OSTYPE" == "linux-gnu" ]; then
     GIT=env/ubuntu/git
 else
     GIT=git
