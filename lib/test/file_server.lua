@@ -18,7 +18,7 @@ local HOOM_CMDS = {
 
 function gen_git_cmd(message)
     if is_linux() then
-        return './commit ' .. message
+        return './commit.sh ' .. message
     else
         return 'commit ' .. message
     end
