@@ -8,12 +8,18 @@ local FileServer = class(function (self, port)
 	self.server = TcpServer(port)
 end)
 
+function FileServer:set_hook(fun)
+	self.hook_fun = fun
+end
+
 function FileServer:callback(req)
 	local cmd, params = req.cmd, req.params
 	local fun = File[cmd]
-	if fun then
+	if fun then		
 		local result = fun(unpack(params))
 		print(string.format('cmd = %s params = %s resp = %s', cmd, table.tostring(params), table.tostring(result)))
+
+		self.hook_fun(cmd, unpack(params))
 		return result
 	else
 		print(string.format('unknown cmd %s', cmd))
