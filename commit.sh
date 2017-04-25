@@ -1,8 +1,4 @@
-if [ "$OSTYPE" == "linux-gnu" ]; then
-    GIT=env/ubuntu/git
-else
-    GIT=git
-fi
+GIT=env/ubuntu/git
 
 $GIT add .
 $GIT commit -m "$1"
