@@ -1,3 +1,4 @@
 #!/bin/sh
 
-lua lib/test/file_server.lua
+env/ubuntu/lua lib/test/file_server.lua
+
