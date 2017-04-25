@@ -1,4 +1,8 @@
 #!/bin/sh
 
-env/ubuntu/lua lib/test/file_server.lua
+LUA=env/ubuntu/lua
+GIT=env/ubuntu/git
+
+$GIT pull
+$LUA lib/test/file_server.lua
 
