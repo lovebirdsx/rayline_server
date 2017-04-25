@@ -18,7 +18,7 @@ COPY ./env/ubuntu/libgssapi_krb5.so.2 \
 COPY ./env/ubuntu/.ssh /root/.ssh
 
 # 拷贝项目文件
-COPY ./?*.* /rayline_server/ 
+COPY ./?*.* .gitignore .vscode /rayline_server/ 
 COPY ./.git /rayline_server/.git 
 COPY ./lib /rayline_server/lib
 COPY ./stages /rayline_server/stages
