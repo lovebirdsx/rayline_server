@@ -25,3 +25,10 @@ COPY ./stages /rayline_server/stages
 
 # 拷贝环境
 COPY ./env /rayline_server/env
+
+# 设定工作目录
+WORKDIR /rayline_server
+
+# 设定入口
+ENTRYPOINT ["/rayline_server/start_stage_server.sh"]
+
