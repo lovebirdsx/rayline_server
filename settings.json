@@ -1,0 +1,17 @@
+{
+   "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.so": true,
+        "**/lua": true,
+        "**/git": true,        
+        "**/ssh": true,        
+        "**/.ssh": true,        
+        "**/lib?*": true,        
+        "**/*.html": true
+    },
+    "python.formatting.provider": "yapf"
+}
