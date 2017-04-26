@@ -1,3 +1,5 @@
+io.stdout:setvbuf('no') 
+
 function is_linux()
     return package.config:sub(1, 1) == '/' 
 end
