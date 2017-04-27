@@ -3,6 +3,7 @@ FROM ubuntu
 # 拷贝系统文件
 COPY ./env/ubuntu/ssh \
      ./env/ubuntu/git \
+     ./env/ubuntu/lua \
      /usr/bin/
 
 COPY ./env/ubuntu/libcrypto.so.1.0.0 /lib/x86_64-linux-gnu/
@@ -18,8 +19,8 @@ COPY ./env/ubuntu/libgssapi_krb5.so.2 \
 COPY ./env/ubuntu/.ssh /root/.ssh
 
 # 拷贝项目文件
-COPY ./?*.* .gitignore .vscode /rayline_server/ 
-COPY ./.git /rayline_server/.git 
+COPY ./?*.* .gitignore .vscode /rayline_server/
+COPY ./.git /rayline_server/.git
 COPY ./lib /rayline_server/lib
 COPY ./stages /rayline_server/stages
 
