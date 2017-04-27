@@ -64,4 +64,8 @@ function FileClient:save_table(path, t)
 	return self:save(path, s)
 end
 
+function FileClient:sync()
+	return self:call('sync')
+end
+
 return FileClient
