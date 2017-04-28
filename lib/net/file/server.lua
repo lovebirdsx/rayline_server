@@ -12,10 +12,6 @@ local FileServer = class(function (self, port)
 	self.server = TcpServer(port)
 end)
 
-function FileServer:set_hook(fun)
-	self.hook_fun = fun
-end
-
 local function gen_git_cmd(message)
 	if is_linux() then
 		return './commit.sh ' .. message
