@@ -38,7 +38,7 @@ function TcpServer:_access_one_req(cl)
 	end
 
 	-- 确保数据能够正常发送完毕
-	cl:setoption('linger', {on=true, timeout=5})
+	cl:setoption('linger', {on=true})
 	cl:close()
 end
 
