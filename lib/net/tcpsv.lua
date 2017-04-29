@@ -37,6 +37,8 @@ function TcpServer:_access_one_req(cl)
 		print(string.format('error: [%s] when receive from %s:%g', err, ip, port))
 	end
 
+	-- 确保数据能够正常发送完毕
+	cl:setoption('linger', {on=true, timeout=5})
 	cl:close()
 end
 
