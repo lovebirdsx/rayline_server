@@ -23,7 +23,14 @@ end
 function TcpServer:_access_one_req(cl)
 	cl:settimeout(self.timeout)
 	local ip, port = cl:getpeername()
-	print(string.format('connected %s:%g', ip, port))
+	if not ip then
+		-- getpeername有可能会返回nil
+		cl:close()
+		print(string.format('TcpServer._access_on_req: getpeername failed'))
+		return
+	else
+		print(string.format('connected %s:%g', ip, port))
+	end
 
 	local req, err = recv_data(cl)
 	if req then
