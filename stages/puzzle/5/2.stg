@@ -12,9 +12,10 @@
 			["type"] = 3		
 		}},
 	["inserter"] = {
-		["blocks"] = {12, 6, 22},
+		["blocks"] = {34, 26, 2},
+		["gen_record"] = {26, 26},
 		["need_refill"] = true,
-		["policy"] = 2	
+		["policy"] = 5	
 	},
 	["score"] = 0,
 	["time"] = 0
