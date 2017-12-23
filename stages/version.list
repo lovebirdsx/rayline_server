@@ -1,6 +1,6 @@
 {
-	["stages/puzzle/1/1.stg"] = 122,
-	["stages/puzzle/1/2.stg"] = 27,
+	["stages/puzzle/1/1.stg"] = 137,
+	["stages/puzzle/1/2.stg"] = 33,
 	["stages/puzzle/1/3.stg"] = 11,
 	["stages/puzzle/1/4.stg"] = 9,
 	["stages/puzzle/1/5.stg"] = 23,
@@ -46,7 +46,7 @@
 	["stages/puzzle/6/6.stg"] = 4,
 	["stages/puzzle/6/7.stg"] = 2,
 	["stages/puzzle/6/8.stg"] = 2,
-	["stages/puzzle/8/1.stg"] = 14,
+	["stages/puzzle/8/1.stg"] = 15,
 	["stages/puzzle/8/2.stg"] = 3,
 	["stages/puzzle/8/7.stg"] = 1,
 	["stages/puzzle/8/8.stg"] = 6
