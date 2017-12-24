@@ -15,56 +15,12 @@
 		["blocks"] = {3, 3, 3},
 		["gen_record"] = {25, 24},
 		["policy"] = 7,
-		["prestored_blocks"] = {20, 23}	
+		["prestored_blocks"] = {3, 3}	
 	},
 	["is_puzzle"] = true,
 	["level"] = 1,
 	["prev_high_score"] = 0,
-	["prop_manager"] = {{
-			["name"] = "clear_one_hex",
-			["snapshot"] = {
-				["has_target"] = false,
-				["max_round_cd"] = 6,
-				["name"] = "clear_one_hex",
-				["round_cd"] = 6			
-			}		
-		}, {
-			["name"] = "flip_v",
-			["snapshot"] = {
-				["max_round_cd"] = 8,
-				["name"] = "flip_v",
-				["round_cd"] = 8			
-			}		
-		}, {
-			["name"] = "clear_block",
-			["snapshot"] = {
-				["max_round_cd"] = 10,
-				["name"] = "clear_block",
-				["round_cd"] = 10			
-			}		
-		}, {
-			["name"] = "refresh_inserter",
-			["snapshot"] = {
-				["max_round_cd"] = 12,
-				["name"] = "refresh_inserter",
-				["round_cd"] = 12			
-			}		
-		}, {
-			["name"] = "flip_h",
-			["snapshot"] = {
-				["max_round_cd"] = 8,
-				["name"] = "flip_h",
-				["round_cd"] = 8			
-			}		
-		}, {
-			["name"] = "revert",
-			["snapshot"] = {
-				["has_target"] = false,
-				["max_round_cd"] = 5,
-				["name"] = "revert",
-				["round_cd"] = 5			
-			}		
-		}},
+	["prop_manager"] = {},
 	["score"] = 0,
 	["version"] = 34
 }
