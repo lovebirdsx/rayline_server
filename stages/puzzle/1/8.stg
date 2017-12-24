@@ -20,31 +20,7 @@
 	["is_puzzle"] = true,
 	["level"] = 1,
 	["prev_high_score"] = 0,
-	["prop_manager"] = {{
-			["name"] = "clear_one_hex",
-			["snapshot"] = {
-				["has_target"] = false,
-				["max_round_cd"] = 6,
-				["name"] = "clear_one_hex",
-				["round_cd"] = 0			
-			}		
-		}, {
-			["name"] = "flip_h",
-			["snapshot"] = {
-				["is_horizontal"] = true,
-				["max_round_cd"] = 8,
-				["name"] = "flip_h",
-				["round_cd"] = 0			
-			}		
-		}, {
-			["name"] = "flip_v",
-			["snapshot"] = {
-				["is_horizontal"] = false,
-				["max_round_cd"] = 8,
-				["name"] = "flip_v",
-				["round_cd"] = 0			
-			}		
-		}},
+	["prop_manager"] = {},
 	["score"] = 0,
 	["version"] = 34
 }
