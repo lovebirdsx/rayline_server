@@ -19,6 +19,16 @@
 		["prestored_blocks"] = {18, 15}	
 	},
 	["is_puzzle"] = true,
+	["jammer_manager"] = {{
+			["name"] = "ice",
+			["snapshot"] = {
+				["hex_params"] = {},
+				["hex_type"] = 3,
+				["max_round_cd"] = 2,
+				["name"] = "ice",
+				["round_cd"] = 2			
+			}		
+		}},
 	["level"] = 1,
 	["prev_high_score"] = 0,
 	["prop_manager"] = {{
