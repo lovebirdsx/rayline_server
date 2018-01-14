@@ -18,6 +18,7 @@
 		["prestored_blocks"] = {25, 24}	
 	},
 	["is_puzzle"] = true,
+	["jammer_manager"] = {},
 	["level"] = 1,
 	["prev_high_score"] = 0,
 	["prop_manager"] = {{

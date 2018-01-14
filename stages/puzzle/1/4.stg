@@ -7,10 +7,10 @@
 	["condition_manager"] = {},
 	["high_score"] = 0,
 	["inserter"] = {
-		["blocks"] = {1, 3, 10},
-		["gen_record"] = {25, 24},
+		["blocks"] = {22, 12, 1},
+		["gen_record"] = {12, 9},
 		["policy"] = 7,
-		["prestored_blocks"] = {25, 24}	
+		["prestored_blocks"] = {12, 9}	
 	},
 	["is_puzzle"] = true,
 	["jammer_manager"] = {},
