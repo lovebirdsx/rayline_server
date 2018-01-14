@@ -7,7 +7,7 @@
 	["condition_manager"] = {{
 			["snapshot"] = {
 				["locate_count"] = 0,
-				["score"] = 240			
+				["score"] = 200			
 			},
 			["type"] = 3		
 		}},
